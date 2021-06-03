@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 03, 2021 at 10:02 PM
+-- Generation Time: Jun 03, 2021 at 10:51 PM
 -- Server version: 10.4.18-MariaDB
 -- PHP Version: 7.4.18
 
@@ -168,8 +168,9 @@ CREATE TABLE `sessions` (
 --
 
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
-('DDbOz6FXGvy3sQEPhky4z4zzU1u1iGPoVvwYI0aT', 2, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36', 'YTo3OntzOjY6Il90b2tlbiI7czo0MDoiZ0hsMHA2N1FoY0hQMm50ZVJUVURtUlZKM2JiNzB0ckNTTkVTSjZGQSI7czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czozOiJ1cmwiO2E6MDp7fXM6OToiX3ByZXZpb3VzIjthOjE6e3M6MzoidXJsIjtzOjM2OiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvZGFzaGJvYXJkL2Zvb2QiO31zOjUwOiJsb2dpbl93ZWJfNTliYTM2YWRkYzJiMmY5NDAxNTgwZjAxNGM3ZjU4ZWE0ZTMwOTg5ZCI7aToyO3M6MTc6InBhc3N3b3JkX2hhc2hfd2ViIjtzOjYwOiIkMnkkMTAkYXNZYXdZZG5tVmJtRmxVM0s2cUsyTzJ6UU8vbFh1cTFuSWhET0F3THgvRmxwUVhvMkxFWS4iO3M6MjE6InBhc3N3b3JkX2hhc2hfc2FuY3R1bSI7czo2MDoiJDJ5JDEwJGFzWWF3WWRubVZibUZsVTNLNnFLMk8yelFPL2xYdXExbkloRE9Bd0x4L0ZscFFYbzJMRVkuIjt9', 1622749894),
-('h7DOuyIFnjTiJm4RugBSWJnW16T4s3bh5PvqWvuo', 2, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36', 'YTo3OntzOjY6Il90b2tlbiI7czo0MDoidWdEYzBOT2F5eDJmZjVpOUtGbjc5ZXNNR1hlTFRSMWdMakJRMEdSbCI7czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czozOiJ1cmwiO2E6MDp7fXM6NTA6ImxvZ2luX3dlYl81OWJhMzZhZGRjMmIyZjk0MDE1ODBmMDE0YzdmNThlYTRlMzA5ODlkIjtpOjI7czoxNzoicGFzc3dvcmRfaGFzaF93ZWIiO3M6NjA6IiQyeSQxMCRhc1lhd1lkbm1WYm1GbFUzSzZxSzJPMnpRTy9sWHVxMW5JaERPQXdMeC9GbHBRWG8yTEVZLiI7czoyMToicGFzc3dvcmRfaGFzaF9zYW5jdHVtIjtzOjYwOiIkMnkkMTAkYXNZYXdZZG5tVmJtRmxVM0s2cUsyTzJ6UU8vbFh1cTFuSWhET0F3THgvRmxwUVhvMkxFWS4iO3M6OToiX3ByZXZpb3VzIjthOjE6e3M6MzoidXJsIjtzOjM2OiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvZGFzaGJvYXJkL2Zvb2QiO319', 1622743712);
+('5lPip0c0tPewsIrQuoTwMHtNyPdVQt2WnTB3FE0B', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36 Edg/91.0.864.37', 'YTo3OntzOjY6Il90b2tlbiI7czo0MDoiREljUUxJYTZWRVdLVjVBQWFlaWtnR2VlTGZGSkExeGwzWTVZWDJMaCI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6NDQ6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9kYXNoYm9hcmQvdHJhbnNhY3Rpb25zIjt9czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czozOiJ1cmwiO2E6MDp7fXM6NTA6ImxvZ2luX3dlYl81OWJhMzZhZGRjMmIyZjk0MDE1ODBmMDE0YzdmNThlYTRlMzA5ODlkIjtpOjE7czoxNzoicGFzc3dvcmRfaGFzaF93ZWIiO3M6NjA6IiQyeSQxMCRhc1lhd1lkbm1WYm1GbFUzSzZxSzJPMnpRTy9sWHVxMW5JaERPQXdMeC9GbHBRWG8yTEVZLiI7czoyMToicGFzc3dvcmRfaGFzaF9zYW5jdHVtIjtzOjYwOiIkMnkkMTAkYXNZYXdZZG5tVmJtRmxVM0s2cUsyTzJ6UU8vbFh1cTFuSWhET0F3THgvRmxwUVhvMkxFWS4iO30=', 1622753417),
+('oFx39pKF9WAMTXEIDSosfxNMvliBl73aQ2q1Vspg', 6, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36', 'YTo3OntzOjY6Il90b2tlbiI7czo0MDoiS0M2UlljTm1VQVVOYWRRTFFoSTRRSU4ySUsyclhyZVQwc2pEejVZQiI7czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MjE6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMCI7fXM6MzoidXJsIjthOjA6e31zOjUwOiJsb2dpbl93ZWJfNTliYTM2YWRkYzJiMmY5NDAxNTgwZjAxNGM3ZjU4ZWE0ZTMwOTg5ZCI7aTo2O3M6MTc6InBhc3N3b3JkX2hhc2hfd2ViIjtzOjYwOiIkMnkkMTAkYXNZYXdZZG5tVmJtRmxVM0s2cUsyTzJ6UU8vbFh1cTFuSWhET0F3THgvRmxwUVhvMkxFWS4iO3M6MjE6InBhc3N3b3JkX2hhc2hfc2FuY3R1bSI7czo2MDoiJDJ5JDEwJGFzWWF3WWRubVZibUZsVTNLNnFLMk8yelFPL2xYdXExbkloRE9Bd0x4L0ZscFFYbzJMRVkuIjt9', 1622751523),
+('SZdKXEdBJnb2iyihbf3bUcK6P7NCa79Qi5QIESDz', 2, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36 Edg/91.0.864.37', 'YTo3OntzOjY6Il90b2tlbiI7czo0MDoiOTBKTWtZUDFxUWhLRnNoOUZwUGx0ZjJNWm55aXp1OFdnNU9zMzh5ViI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MzE6Imh0dHA6Ly9sb2NhbGhvc3Q6ODAwMC9kYXNoYm9hcmQiO31zOjY6Il9mbGFzaCI7YToyOntzOjM6Im9sZCI7YTowOnt9czozOiJuZXciO2E6MDp7fX1zOjM6InVybCI7YTowOnt9czo1MDoibG9naW5fd2ViXzU5YmEzNmFkZGMyYjJmOTQwMTU4MGYwMTRjN2Y1OGVhNGUzMDk4OWQiO2k6MjtzOjE3OiJwYXNzd29yZF9oYXNoX3dlYiI7czo2MDoiJDJ5JDEwJGFzWWF3WWRubVZibUZsVTNLNnFLMk8yelFPL2xYdXExbkloRE9Bd0x4L0ZscFFYbzJMRVkuIjtzOjIxOiJwYXNzd29yZF9oYXNoX3NhbmN0dW0iO3M6NjA6IiQyeSQxMCRhc1lhd1lkbm1WYm1GbFUzSzZxSzJPMnpRTy9sWHVxMW5JaERPQXdMeC9GbHBRWG8yTEVZLiI7fQ==', 1622753156);
 
 -- --------------------------------------------------------
 
@@ -247,7 +248,7 @@ CREATE TABLE `transactions` (
 --
 
 INSERT INTO `transactions` (`id`, `user_id`, `food_id`, `quantity`, `total`, `status`, `payment_url`, `deleted_at`, `created_at`, `updated_at`) VALUES
-(1, 1, 1, 2, '60000', 'DELIVERED', '', NULL, '2021-05-03 05:18:30', '2021-06-03 10:03:18');
+(1, 3, 1, 2, '60000', 'CANCELLED', '', NULL, '2021-05-03 05:18:30', '2021-06-03 13:50:15');
 
 -- --------------------------------------------------------
 
@@ -280,9 +281,9 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `password`, `two_factor_secret`, `two_factor_recovery_codes`, `remember_token`, `current_team_id`, `profile_photo_path`, `address`, `houseNumber`, `phoneNumber`, `city`, `roles`, `created_at`, `updated_at`) VALUES
-(2, 'Teguh', 'teguh@admin.com', NULL, '$2y$10$asYawYdnmVbmFlU3K6qK2O2zQO/lXuq1nIhDOAwLx/FlpQXo2LEY.', NULL, NULL, NULL, 1, NULL, 'Jakarta', '21A', '089389283983', 'Seoul', 'ADMIN', '2021-05-03 05:45:41', '2021-05-03 05:45:41'),
-(4, 'Novita', 'teguh45@gmail.com', NULL, '$2y$10$asYawYdnmVbmFlU3K6qK2O2zQO/lXuq1nIhDOAwLx/FlpQXo2LEY.', NULL, NULL, 'l7chBTe0YQpRJUh4LOG2Bd1Q8QcN9l30WLn49rZGe8FewK3ryXxqYXUjakiB', 1, 'https://res.cloudinary.com/teguhcodeincom/image/upload/v1622749721/ugofptdxhqb5qs5al0rc.jpg', '13312', '45657568', 'JL HJ RIKN', 'Jakarta', 'USER', '2021-06-01 15:20:58', '2021-06-03 12:48:41'),
-(6, 'siska', 'siskakohl@gmail.com', NULL, '$2y$10$asYawYdnmVbmFlU3K6qK2O2zQO/lXuq1nIhDOAwLx/FlpQXo2LEY.', NULL, NULL, NULL, NULL, 'https://res.cloudinary.com/teguhcodeincom/image/upload/v1622749513/mrd4nsrdfnlfwmsiaxgq.jpg', '13312', 'No 76 F', '083135351881', 'Jakarta', 'USER', '2021-06-03 12:45:13', '2021-06-03 12:45:13');
+(1, 'Teguh', 'teguh@admin.com', NULL, '$2y$10$asYawYdnmVbmFlU3K6qK2O2zQO/lXuq1nIhDOAwLx/FlpQXo2LEY.', NULL, NULL, NULL, 1, 'https://res.cloudinary.com/teguhcodeincom/image/upload/v1622751339/m4qrplvg0aiyirhku89w.jpg', 'Jakarta', '21A', '089389283983', 'Seoul', 'ADMIN', '2021-05-03 05:45:41', '2021-06-03 13:15:39'),
+(2, 'Novita', 'novita@gmail.com', NULL, '$2y$10$asYawYdnmVbmFlU3K6qK2O2zQO/lXuq1nIhDOAwLx/FlpQXo2LEY.', NULL, NULL, 'l7chBTe0YQpRJUh4LOG2Bd1Q8QcN9l30WLn49rZGe8FewK3ryXxqYXUjakiB', 1, 'https://res.cloudinary.com/teguhcodeincom/image/upload/v1622749721/ugofptdxhqb5qs5al0rc.jpg', '13312', '45657568', 'JL HJ RIKN', 'Jakarta', 'USER', '2021-06-01 15:20:58', '2021-06-03 12:48:41'),
+(3, 'siska', 'siskakohl@gmail.com', NULL, '$2y$10$asYawYdnmVbmFlU3K6qK2O2zQO/lXuq1nIhDOAwLx/FlpQXo2LEY.', NULL, NULL, NULL, NULL, 'https://res.cloudinary.com/teguhcodeincom/image/upload/v1622749513/mrd4nsrdfnlfwmsiaxgq.jpg', '13312', 'No 76 F', '083135351881', 'Jakarta', 'USER', '2021-06-03 12:45:13', '2021-06-03 12:45:13');
 
 --
 -- Indexes for dumped tables

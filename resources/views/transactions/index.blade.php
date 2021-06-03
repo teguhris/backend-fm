@@ -28,7 +28,23 @@
                                 <td class="border px-6 py-4 ">{{ $item->user->name }}</td>
                                 <td class="border px-6 py-4">{{ $item->quantity }}</td>
                                 <td class="border px-6 py-4">{{ number_format($item->total) }}</td>
-                                <td class="border px-6 py-4">{{ $item->status }}</td>
+                                <td class="border px-6 py-4">
+                                    @if ($item->status=="DELIVERED")
+                                      <span type="button" class="text-white rounded p-1.5 bg-green-600">
+                                        {{ $item->status }}
+                                      </span>
+                                    @elseif ($item->status=="ON_DELIVERY")
+                                      <span type="button" class="text-white rounded p-1.5 bg-blue-600">
+                                        {{ $item->status }}
+                                      </span>
+                                    @else
+                                      <span type="button" class="text-white rounded p-1.5 bg-red-600">
+                                        {{ $item->status }}
+                                      </span>
+                                      @endif
+                                
+                                  
+                                </td>
                                 <td class="border px-6 py- text-center">
                                     <a href="{{ route('transactions.show', $item->id) }}" class="inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mx-2 rounded">
                                         View
